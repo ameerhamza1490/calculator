@@ -3,7 +3,7 @@ var textArea = document.getElementById("text-field");
 document.body.addEventListener("keypress", function (event) {
     switch (event.key) {
         case '1':
-            textArea.value += '7';
+            textArea.value += '1';
             break;
 
         case '2':
